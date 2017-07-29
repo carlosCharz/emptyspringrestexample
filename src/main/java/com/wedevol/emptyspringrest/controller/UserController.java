@@ -1,6 +1,8 @@
 package com.wedevol.emptyspringrest.controller;
 
 
+import java.util.Arrays;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -25,7 +27,7 @@ public class UserController {
 
 	protected static final Logger logger = LoggerFactory.getLogger(UserController.class);
 	
-	private static final User user1 = new User(1L, "Charz", "charz@yopmail.com");
+	private static final User user1 = new User(1L, "Carlos", Arrays.asList("charz"), 26, "charz@yopmail.com");
 
 	@RequestMapping(value = "/{userId}", method = RequestMethod.GET)
 	@ResponseStatus(HttpStatus.OK)

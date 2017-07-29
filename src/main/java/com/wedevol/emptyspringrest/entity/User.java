@@ -22,9 +22,11 @@ public class User implements Serializable {
 	public User() {
 	}
 	
-	public User(Long id, String name, String email) {
+	public User(Long id, String name, List<String> nicknames, Integer age, String email) {
 		this.id = id;
 		this.name = name;
+		this.nicknames = nicknames;
+		this.age = age;
 		this.email = email;
 	}
 
