@@ -13,5 +13,5 @@ This is an empty spring boot rest project that uses Tomcat. It was created just 
 
 **1. Get user by id. HTTP Method: GET**
 ```
-http://localhost:8091/emptyspringrest/users/1
+http://localhost:8080/emptyspringrest/users/1
 ```
