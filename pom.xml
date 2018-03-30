@@ -4,20 +4,21 @@
   <groupId>com.wedevol</groupId>
   <artifactId>emptyspringrest</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <name>Empty Spring Rest Example Project</name>
   <description>This is an empty spring boot rest project that uses Tomcat. It was created just to explain a Jenkins deployment.</description>
   
   <properties>
-		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.10.RELEASE</version>
+		<version>2.0.0.RELEASE</version>
+		<!-- https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes -->
 	</parent>
 
 	<dependencies>
@@ -36,7 +37,7 @@
 	<build>
 		<finalName>emptyspringrest</finalName>
 		<plugins>
-			<!-- Package as an executable jar/war -->
+			<!-- Spring boot maven plugin -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
