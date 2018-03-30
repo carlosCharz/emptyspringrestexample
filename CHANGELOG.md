@@ -4,7 +4,7 @@ All notable changes to the empty spring rest project will be documented in this 
 ## [unreleased]
 **Tag**: project_r1_v2
 
-## [xmpp_r1_v1] - 2018-03-30
+## [project_r1_v1] - 2018-03-30
 **Tag**: project_r1_v1
 
 ### Added
