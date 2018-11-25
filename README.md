@@ -1,6 +1,6 @@
-# Client Side Load Balancing with Ribbon and Spring Cloud
+# Empty Spring REST example
 
-This is the server component (spring boot rest project) for the example that showcases the client Side Load Balancing with Ribbon and Spring Cloud.
+This is an empty spring boot rest project that uses Tomcat. It was created just to explain a Jenkins deployment. It is not a template project!
  
 ## Technologies
 
@@ -11,7 +11,7 @@ This is the server component (spring boot rest project) for the example that sho
  
 ## Exposed methods
 
-**1. Get a greeting string. HTTP Method: GET**
+**1. Get user by id. HTTP Method: GET**
 ```
-http://localhost:8080/ribbonserver/greeting
+http://localhost:8080/emptyspringrest/users/1
 ```

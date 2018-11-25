@@ -2,11 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wedevol</groupId>
-  <artifactId>greetingserver</artifactId>
+  <artifactId>emptyspringrest</artifactId>
   <packaging>war</packaging>
-  <version>1.0.0</version>
-  <name>Greeting Server</name>
-  <description>This is the server component (spring boot rest project) for the example that showcases the client Side Load Balancing with Ribbon and Spring Cloud.</description>
+  <version>2.0.0</version>
+  <name>Empty Spring Rest Example Project</name>
+  <description>This is an empty spring boot rest project that uses Tomcat. It was created just to explain a Jenkins deployment.</description>
   
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,7 +37,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>greetingserver</finalName>
+		<finalName>emptyspringrest</finalName>
 		<plugins>
 			<!-- Spring boot maven plugin -->
 			<plugin>
