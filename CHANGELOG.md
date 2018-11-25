@@ -12,8 +12,3 @@ All notable changes to the empty spring rest project will be documented in this 
 
 ### Added
 - initial commit
-
-### Fixed
-
-### Removed
-

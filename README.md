@@ -13,5 +13,17 @@ This is the server component (spring boot rest project) for the example that sho
 
 **1. Get a greeting string. HTTP Method: GET**
 ```
-http://localhost:8080/ribbonserver/greeting
+http://localhost:8090/greetingserver/greeting
+```
+
+**2. Home. HTTP Method: GET**
+```
+http://localhost:8090/greetingserver/
+```
+
+## How to run it
+
+**1. Maven**
+```
+ mvn spring-boot:run
 ```
