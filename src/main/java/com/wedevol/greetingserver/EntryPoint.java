@@ -1,4 +1,4 @@
-package com.wedevol.emptyspringrest;
+package com.wedevol.greetingserver;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
