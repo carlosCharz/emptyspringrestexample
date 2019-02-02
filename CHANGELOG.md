@@ -11,6 +11,7 @@ All notable changes to the empty spring rest project will be documented in this 
 
 ## Modified
 - upgrade spring boot from 2.1.0.RELEASE to 2.1.2.RELEASE
+- remove @ResponseBody annotation because the @RestController already includes that
 
 -------------------------------------------------------------------------------------
 

@@ -8,7 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import com.wedevol.emptyspringrest.entity.User;
@@ -29,7 +28,6 @@ public class UserController {
 
   @RequestMapping(value = "/{userId}", method = RequestMethod.GET)
   @ResponseStatus(HttpStatus.OK)
-  @ResponseBody
   public User findById(@PathVariable Long userId) throws Exception {
     logger.info("Find user by id: {}", userId);
     if (userId.equals(1L)) {
