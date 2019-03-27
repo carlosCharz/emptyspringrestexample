@@ -2,9 +2,17 @@
 All notable changes to the empty spring rest project will be documented in this file, in a per release basis.
 
 ## [unreleased]
-**Tag**: project_r1_v6
+
+-----------------------------------------------------------------------------
+
+
+## [project_r1_v6] - 2019-03-27
+
+## Modified
+- upgrade spring boot from 2.1.0.RELEASE to 2.1.3.RELEASE
 
 -------------------------------------------------------------------------------------
+
 
 ## [project_r1_v5] - 2019-02-02
 **Tag**: project_r1_v5
