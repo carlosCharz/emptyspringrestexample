@@ -6,7 +6,7 @@ This is an empty spring boot rest project that uses Tomcat. It was created just 
 
 1. Spring Boot (spring-boot-starter-web, spring-boot-starter-tomcat)
 2. Java 8
-3. Tomcat 8.5
+3. Tomcat 8.5.x
 4. Maven
  
 ## Exposed methods
