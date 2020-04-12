@@ -14,7 +14,7 @@ import com.wedevol.emptyspringrest.entity.User;
 
 /**
  * User REST Controller
- * 
+ *
  * @author charz
  *
  */
