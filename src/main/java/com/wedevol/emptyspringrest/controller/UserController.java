@@ -22,7 +22,7 @@ import com.wedevol.emptyspringrest.entity.User;
 @RequestMapping("/users")
 public class UserController {
 
-  protected static final Logger logger = LoggerFactory.getLogger(UserController.class);
+  private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
   private static final User user1 = new User(1L, "Carlos", Arrays.asList("charz"), 26, "charz@yopmail.com");
 
