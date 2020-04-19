@@ -17,7 +17,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class EntryPoint extends SpringBootServletInitializer {
 
   private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
-  
+
   @Override
   protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
     return application.sources(EntryPoint.class);
