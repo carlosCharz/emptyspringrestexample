@@ -16,16 +16,16 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class EntryPoint extends SpringBootServletInitializer {
 
-  private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
+    private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
-  @Override
-  protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-    return application.sources(EntryPoint.class);
-  }
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(EntryPoint.class);
+    }
 
-  public static void main(String[] args) {
-    logger.info("Initializing Spring Boot!");
-    SpringApplication.run(EntryPoint.class, args);
-  }
+    public static void main(String[] args) {
+        logger.info("Initializing Spring Boot!");
+        SpringApplication.run(EntryPoint.class, args);
+    }
 
 }
