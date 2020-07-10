@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to the empty spring rest project will be documented in this file, in a per release basis.
+All notable changes to the project will be documented in this file, in a per release basis.
 
 ## [UNRELEASED]
 
