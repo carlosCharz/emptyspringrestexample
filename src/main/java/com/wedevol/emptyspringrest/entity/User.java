@@ -1,6 +1,5 @@
 package com.wedevol.emptyspringrest.entity;
 
-import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -9,9 +8,7 @@ import java.util.List;
  * @author Charz++
  */
 
-public class User implements Serializable {
-
-    private static final long serialVersionUID = 3072475211055736282L;
+public class User {
 
     private Long id;
     private String name;

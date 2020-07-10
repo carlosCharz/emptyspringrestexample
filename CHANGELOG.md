@@ -3,7 +3,11 @@ All notable changes to the empty spring rest project will be documented in this 
 
 ## [UNRELEASED]
 
------------------------------------------------------------------------------
+## Modified
+- Upgrade spring boot lib from 2.3.0.RELEASE to 2.3.1.RELEASE https://github.com/spring-projects/spring-boot/releases/tag/v2.3.1.RELEASE
+- Format and clean code
+- Remove the Serializable interface
+- Rename static variables
 
 
 ## [r1_v12] - 2020-06-09

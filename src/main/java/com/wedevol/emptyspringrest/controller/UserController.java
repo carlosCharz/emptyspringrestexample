@@ -22,16 +22,16 @@ import com.wedevol.emptyspringrest.entity.User;
 @RequestMapping("/users")
 public class UserController {
 
-    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(UserController.class);
 
-    private static final User user1 = new User(1L, "Carlos", Arrays.asList("charz"), 26, "charz@yopmail.com");
+    private static final User USER_1 = new User(1L, "Carlos", Arrays.asList("charz"), 26, "charz@yopmail.com");
 
     @RequestMapping(value = "/{userId}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public User findById(@PathVariable Long userId) throws Exception {
-        logger.info("Find user by id: {}", userId);
+        LOG.info("Find user by id: {}", userId);
         if (userId.equals(1L)) {
-            return user1;
+            return USER_1;
         } else {
             throw new Exception("I just created 1 user to test!");
         }

@@ -4,8 +4,8 @@ This is an empty spring boot rest project that uses Tomcat. It was created just 
  
 ## Technologies
 
-1. Spring Boot (spring-boot-starter-web, spring-boot-starter-tomcat)
-2. Java 8
+1. Spring Boot 2.x (spring-boot-starter-web, spring-boot-starter-tomcat)
+2. Java 8+
 3. Tomcat 8.5.x
 4. Maven 3.6.x
  
